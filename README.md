@@ -1,130 +1,81 @@
-# 🏎️ Weintern Assignment 2 — Aura Motors Responsive Landing Page
+# Task 2: Responsive Business Landing Page - Aura Motors
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![Responsive Design](https://img.shields.io/badge/Design-Responsive-success?style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+## Project Overview
+This project contains a modern, responsive landing page for "Aura Motors", a fictional premium luxury car dealership. 
 
-Welcome to the **Aura Motors** luxury automotive dealership landing page project developed for **Weintern Assignment-2**. This project delivers a high-conversion, responsive single-page experience tailored for premium car acquisitions.
+## Features Implemented
+- **Professional Visual Theme**: A sleek dark mode design with gold (`#c9983f`) accents, matching the premium car dealership aesthetic.
+- **Typography**: Uses the 'Outfit' font from Google Fonts for a modern, clean look.
+- **Navigation Bar**: Includes brand logo, links to sections, and a prominent CTA button. Sticky behavior and mobile hamburger menu implemented.
+- **Hero Section**: High-impact value proposition, clear CTAs, and a generated photorealistic hero image of a sports car in a showroom.
+- **Services Section**: A grid layout displaying 4 premium services (Bespoke Sourcing, Exclusive Financing, Maintenance, Storage) using cards and FontAwesome icons.
+- **About/Trust Section**: Stats and features to build credibility.
+- **Contact Form**: Includes name, email, phone, area of interest dropdown, and message fields with basic HTML validation and mock JS submission.
+- **Mobile Responsiveness**: 
+  - Layout adapts smoothly below 992px and 768px breakpoints.
+  - Navigation converts to a mobile-friendly hamburger menu.
+  - Form and buttons are touch-friendly.
 
----
+## How to View
+Simply open `index.html` in any modern web browser. 
 
-## 📂 Project Structure
-
-```text
-Weintern Assignment-2/
-├── task-2/
-│   ├── asset/
-│   │   └── hero_car_1791654079779.jpg    # Showroom supercar hero visual
-│   ├── screenshots/                      # 2x Retina resolution screenshots
-│   │   ├── landing-page-desktop.png      # Complete desktop full-page view
-│   │   ├── hero-desktop.png              # Desktop hero section viewport
-│   │   ├── services-section.png          # 4-card premium services layout
-│   │   ├── about-section.png             # About & achievement statistics
-│   │   ├── contact-section.png           # Concierge booking contact form
-│   │   ├── contact-form-filled.png       # Interactive filled contact form
-│   │   ├── mobile-fullpage.png           # Complete handheld viewport flow
-│   │   ├── hero-mobile.png               # Mobile hero presentation
-│   │   ├── mobile-menu.png               # Animated mobile navigation drawer
-│   │   └── tablet-view.png               # Responsive iPad / tablet layout
-│   ├── index.html                        # Semantic HTML5 landing page
-│   ├── style.css                         # Custom Vanilla CSS design system
-│   ├── script.js                         # Sticky navigation, mobile menu & form handling
-│   └── README.md                         # Task documentation
-├── screenshots/                          # Root documentation screenshots
-└── README.md                             # Main repository overview
-```
-
----
-
-## ✨ Features & Highlights
-
-- **Luxury Dark Aesthetic**: Sleek deep obsidian background (`#0a0a0a`) accented with refined gold tones (`#c9983f`).
-- **Modern Typography**: High-readability Google Font **Outfit** across headlines and micro-copy.
-- **Dynamic Sticky Navigation**: Top navigation with blur backdrop filter that activates on scroll.
-- **Hero Showcase**: Photorealistic supercar showroom presentation with dual call-to-actions.
-- **Bespoke Services Grid**: Card grid showcasing Sourcing, Financing, Maintenance, and Storage.
-- **Trust & Milestones**: Numerical counters highlighting 20+ Years, 1,500+ Delivered, and 100% Satisfaction.
-- **Concierge Booking Form**: Fully styled inquiry form with field validation and mock interactive state.
-- **Mobile First & Responsive**: Smooth breakpoint transitions across 1440px desktop, 768px tablet, and 375px mobile viewports with an animated slide-in drawer.
-
----
-
-## 📸 Screenshots & Previews
+## 📸 Screenshots & Showcase
 
 ### 🖥️ Desktop Previews
 
 #### **1. Full Landing Page (`index.html`)**
-![Full Landing Page Desktop](task-2/screenshots/landing-page-desktop.png)
-*Complete desktop overview demonstrating proportional layout balance, visual hierarchy, and cohesive branding.*
+![Full Landing Page Desktop](screenshots/landing-page-desktop.png)
+*Full page overview showcasing seamless layout flow, sticky navbar, dark aesthetic, and gold branding accents.*
 
 ---
 
 #### **2. Hero Section**
-![Hero Section Desktop](task-2/screenshots/hero-desktop.png)
-*Hero viewport with showroom backdrop, brand typography, and primary/secondary CTA buttons.*
+![Hero Section Desktop](screenshots/hero-desktop.png)
+*High-impact hero showcase featuring photorealistic exotic car showroom imagery, headline typography, and dual call-to-action buttons.*
 
 ---
 
 #### **3. Premium Services Section**
-![Services Section](task-2/screenshots/services-section.png)
-*Detailed 4-pillar luxury automotive service offerings.*
+![Services Section](screenshots/services-section.png)
+*Modern 4-column card grid detailing Bespoke Sourcing, Exclusive Financing, White-Glove Maintenance, and Secure Storage.*
 
 ---
 
-#### **4. About & Trust Section**
-![About Section](task-2/screenshots/about-section.png)
-*Credibility milestones and brand heritage highlights.*
+#### **4. About & Brand Credibility Section**
+![About Section](screenshots/about-section.png)
+*Company heritage statement, feature checklist, and key milestone achievement counters (20+ Years, 1,500+ Delivered, 100% Satisfaction).*
 
 ---
 
 #### **5. Contact & Concierge Form**
-![Contact Section](task-2/screenshots/contact-section.png)
-*Direct showroom channels alongside a streamlined reservation form.*
+![Contact Section](screenshots/contact-section.png)
+*Dual-column contact layout featuring direct showroom coordinates, contact channels, and a complete inquiry form.*
 
-![Contact Form Interaction](task-2/screenshots/contact-form-filled.png)
-*Interactive validation state showing focused inputs and selected options.*
+![Contact Form Filled](screenshots/contact-form-filled.png)
+*Active form inputs with styled dropdown, input focus states, and client-side validation.*
 
 ---
 
-### 📱 Responsive & Mobile Previews
+### 📱 Responsive & Mobile Views
 
 #### **6. Mobile Full Landing Page View (375x812)**
-![Mobile Full Page](task-2/screenshots/mobile-fullpage.png)
-*Clean, touch-friendly vertical stack adapted for smartphone screens.*
+![Mobile Full Page](screenshots/mobile-fullpage.png)
+*Fully responsive fluid layout adapting gracefully to handheld viewports with optimized typography and touch targets.*
 
 ---
 
 #### **7. Mobile Hero & Navigation**
-![Mobile Hero](task-2/screenshots/hero-mobile.png)
-*Mobile header with custom brand emblem and hamburger toggle.*
+![Mobile Hero](screenshots/hero-mobile.png)
+*Compact hero presentation on mobile with prominent mobile toggle.*
 
-![Mobile Navigation Drawer](task-2/screenshots/mobile-menu.png)
-*Animated clip-path navigation drawer providing access to all sections.*
+![Mobile Menu Active](screenshots/mobile-menu.png)
+*Smooth clip-path animated full navigation drawer with fast anchor links and direct CTA button.*
 
 ---
 
 #### **8. Tablet View (768x1024 iPad)**
-![Tablet View](task-2/screenshots/tablet-view.png)
-*Fluid layout adaptation for tablet viewports.*
-
----
-
-## 🚀 How to Run Locally
-
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/jigarpandhare25/Weintern-Assignment-2.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd "Weintern-Assignment-2/task-2"
-   ```
-3. Open `index.html` directly in your browser or serve using VS Code Live Server:
-   ```bash
-   # Or using npx serve
-   npx -y serve .
-   ```
+![Tablet View](screenshots/tablet-view.png)
+*Adaptive 2-column grid layout transitioning between desktop and mobile formats.*
 
 ---
 
@@ -139,4 +90,5 @@ Weintern Assignment-2/
 
 ---
 
-*Developed with passion by Jigar Pandhare for Weintern Assignment-2.*
+*Created with ❤️ by Jigar Pandhare for Weintern Assignment-2.*
+
